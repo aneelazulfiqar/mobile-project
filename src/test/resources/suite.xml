@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Clay-FE-Test">
+    <listeners>
+        <listener class-name="common.report.Listener"/>
+    </listeners>
+    <test name="App Verification">
+        <classes>
+            <class name="tests.SettingsTest"/>
+        </classes>
+    </test>
+</suite>
